@@ -1,0 +1,59 @@
+@import url(contact.css);
+.contact{
+    width: 100%;
+    height: 100%;
+}
+.contact-Us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details-1{
+    display:block;
+}
+.sub-details{
+    font-size: 1.5vw;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.sub-details i{
+    color: var(--button-color);
+    padding:0 2rem;
+}
+.sub-details h2{
+    padding-right: 1rem;
+    
+}
+.details-2{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.details-2 p{
+    padding:1.2rem 0;
+font-size: 1.3vw;
+}
+.phone p{
+    padding: 0;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+/* media query for responsiveness */
+@media (max-width: 450px){
+    .sub-details{
+        font-size: 3vw;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+    }
+    .details-2 p{
+    font-size: 2.7vw;
+    }
+    
+}
